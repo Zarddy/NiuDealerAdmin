@@ -95,7 +95,7 @@
         label="操作"
         width="120">
         <template slot-scope="scope">
-          <el-button @click="editRecord(scope.row, )" type="text" size="small">修改</el-button>
+          <el-button @click="editRecord(scope.row)" type="text" size="small">修改</el-button>
           <el-button @click="changeState(scope.row)" type="text" size="small">停止</el-button>
           <el-button @click="restPassword(scope.row)" type="text" size="small">重置密码</el-button>
         </template>
